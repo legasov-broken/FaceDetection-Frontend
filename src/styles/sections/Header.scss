@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fffdf4;
+}
+
+.header {
+  height: 83px;
+  background-color: #fffdf4;
+  border-bottom: 1px solid #ecedec;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #546756;
+
+  .header__navigation {
+    a {
+      text-decoration: none;
+      color: #546756;
+      margin-right: 15px;
+    }
+  }
+
+  .header__user {
+    display: flex;
+  }
+
+  .header__logout {
+    margin-left: 10px;
+    color: red;
+  }
+
+  .header__account {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #546756;
+  }
+}

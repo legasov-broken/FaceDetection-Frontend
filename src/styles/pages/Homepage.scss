@@ -1,0 +1,111 @@
+.chamcong {
+  .chamcong__wrapper {
+    padding: 50px;
+  }
+
+  .chamcong__heading {
+    h1 {
+      font-size: 45px;
+      font-weight: 500;
+      line-height: 53px;
+      letter-spacing: -2.25px;
+      color: #374639;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 53px;
+      letter-spacing: -2.25px;
+      color: #374639;
+    }
+  }
+
+  .chamcong__heading-inputs {
+    margin-bottom: 20px;
+    label {
+      margin-right: 10px;
+      span {
+        margin-right: 10px;
+      }
+    }
+    button {
+      margin: 0 10px;
+      background-color: #374639;
+      color: #d6ddc0;
+      cursor: pointer;
+      font-size: 19px;
+      line-height: 22px;
+      letter-spacing: -0.19px;
+      border: none;
+      padding: 12px 24px 9px 24px;
+    }
+
+    input {
+      padding: 12px 24px 9px 24px;
+    }
+  }
+  .chamcong__content-heading {
+    display: flex;
+    flex-direction: row;
+
+    .chamcong__heading-item {
+      width: 15%;
+    }
+  }
+  .chamcong__item {
+    display: flex;
+    flex-direction: row;
+    .chamcong__heading-item {
+      width: 15%;
+    }
+  }
+
+  .chamcong__content-heading {
+    border-bottom: 1px solid #ecedec;
+    .chamcong__heading-item {
+      padding-bottom: 20px;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.15px;
+      text-transform: uppercase;
+      color: #72776c;
+    }
+  }
+
+  .chamcong__content-table {
+    .chamcong__item {
+      padding: 20px 0;
+      border-bottom: 1px solid #ecedec;
+    }
+  }
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.status-pending {
+  background-color: yellow;
+  color: black;
+}
+
+.status-approved {
+  background-color: green;
+  color: white;
+}
+
+.status-rejected {
+  background-color: red;
+  color: white;
+}
+
+.chamcong__item-time.chamcong__heading-item {
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}

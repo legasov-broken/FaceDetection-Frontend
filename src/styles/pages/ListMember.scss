@@ -1,0 +1,67 @@
+.listmember__wrapper {
+  padding: 50px;
+
+  .listmember__heading-inputs {
+    padding: 12px 24px 9px 24px;
+  }
+
+  .listmember__heading-btn {
+    margin: 0 10px;
+    background-color: #374639;
+    color: #d6ddc0;
+    cursor: pointer;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: -0.19px;
+    border: none;
+    padding: 12px 24px 9px 24px;
+  }
+  h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: -2.25px;
+    color: #374639;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: -2.25px;
+    color: #374639;
+  }
+
+  .listmember__content-table {
+    display: flex;
+    flex-direction: column;
+
+    .listmember__item {
+      display: flex;
+      flex-direction: row;
+      padding: 20px 0;
+      border-bottom: 1px solid #ecedec;
+    }
+
+    .chamcong__heading-item {
+      width: 20%;
+    }
+
+    .chamcong__edit {
+      width: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      a {
+        color: #374639;
+      }
+
+      .listmember__delete {
+        color: #374639;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
