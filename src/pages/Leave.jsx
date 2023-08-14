@@ -95,6 +95,7 @@ const Leave = () => {
     });
   };
 
+  console.log(leaveForm)
 
   const formatTime = (dateString) => {
     const date = new Date(dateString);
@@ -111,6 +112,7 @@ const Leave = () => {
     });
   };
 
+  console.log(leaveForm);
   return (
     <div className="register chamcong">
       <Header />
@@ -131,6 +133,7 @@ const Leave = () => {
                 required
                 value={leaveForm.check_in ? leaveForm.check_in.slice(0, -1) : ""}
                 onChange={(e) => {
+                 
                   setLeaveForm({
                     ...leaveForm,
                     check_in: e.target.value,
