@@ -133,7 +133,7 @@ const Leave = () => {
                 required
                 value={leaveForm.check_in ? leaveForm.check_in.slice(0, -1) : ""}
                 onChange={(e) => {
-                 
+                  console.log(e.target.value)
                   setLeaveForm({
                     ...leaveForm,
                     check_in: e.target.value,
