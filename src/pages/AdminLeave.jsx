@@ -72,7 +72,7 @@ const AdminLeave = () => {
       // If the date is not valid, return an empty string
       return "";
     }
-    return date.toLocaleDateString("en-GB", {
+    return date.toLocaleDateString("en-US", {
       day: "2-digit",
       month: "2-digit",
       year: "2-digit",
